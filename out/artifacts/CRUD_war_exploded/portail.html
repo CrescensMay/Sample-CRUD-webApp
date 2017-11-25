@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Portail</title>
+</head>
+<body>
+<header>
+    <img src="crud.png" alt="Ceci est une image">
+    <ul>
+        <li><a href="LogoutServlet">Logout</a></li>
+        <li><a href="index.html">Manage Employee</a></li>
+    </ul>
+</header>
+<div class="portail">
+    <p>You are successfully logged in!</p>
+</div>
+<div class="searching">
+<form class="" action="SearchServlet">
+    <input type="search" id="searchBar" name="search" value="" placeholder="enter name or id">
+    <input type="submit" id="qryButton" name="query" value="Search">
+</form>
+</div>
+<div class="w3-content w3-section" style="max-width:700px">
+    <img class="mySlides" src="1.png" style="width: 100%">
+    <img class="mySlides" src="crud.png" style="width: 100%">
+    <img class="mySlides" src="2.png" style="width: 100%">
+    <img class="mySlides" src="3.png" style="width: 100%">
+    <img class="mySlides" src="4.png" style="width: 100%">
+</div>
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 4000); // Change image every 2 seconds
+    }
+</script>
+<footer><p>Copyright &copy;<script language="javascript" type="text/javascript"> document.write(new Date().getFullYear())</script>
+    SmartSoft / Terms of Services / Privacy Policy, by <strong> Crescens.K</strong></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.4">
+    <root id="1"/>
+    <database id="2" parent="1" name="myemployees">
+      <ObjectId>16402</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>13255</ObjectId>
+    </database>
+    <schema id="4" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2017-11-25.07:27:21.095</IntrospectionTimestamp>
+      <IntrospectionStateNumber>606</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="5" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="information_schema">
+      <ObjectId>12965</ObjectId>
+    </schema>
+    <sequence id="10" parent="4" name="emp_id_seq">
+      <ObjectId>16403</ObjectId>
+      <StateNumber>565</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <table id="11" parent="4" name="emp">
+      <ObjectId>16405</ObjectId>
+      <StateNumber>605</StateNumber>
+    </table>
+    <column id="12" parent="11" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>565</StateNumber>
+      <SequenceName>emp_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;emp_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="13" parent="11" name="username">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="14" parent="11" name="email">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="15" parent="11" name="password">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="16" parent="11" name="country">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>565</StateNumber>
+    </column>
+    <index id="17" parent="11" name="emp_pkey">
+      <ObjectId>16409</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="18" parent="11" name="emp_pkey">
+      <ObjectId>16410</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>emp_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
