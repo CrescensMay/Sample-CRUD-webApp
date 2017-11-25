@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019f3cec-f18c-4ecc-8dd4-94b79b0f1280" name="Default" comment="" />
+    <list default="true" id="019f3cec-f18c-4ecc-8dd4-94b79b0f1280" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smartsoft/dao/EmployeeDao.java" afterPath="$PROJECT_DIR$/src/com/smartsoft/dao/EmployeeDao.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,13 +93,13 @@
         <entry file="file://$PROJECT_DIR$/src/com/smartsoft/dao/EmployeeDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding>
-                <marker date="1511599657000" expanded="true" signature="825:895" ph="INSERT INTO emplo... " />
-                <marker date="1511599657000" expanded="true" signature="1713:1781" ph="UPDATE emplo... " />
-                <marker date="1511599657000" expanded="true" signature="2535:2561" ph="DELETE FROM " />
-                <marker date="1511599657000" expanded="true" signature="3050:3078" ph="SELECT * FRO... emplo" />
-                <marker date="1511599657000" expanded="true" signature="3964:3981" ph="SELECT * FRO... emplo" />
+                <marker date="1511600021000" expanded="true" signature="833:903" ph="INSERT INTO emplo... " />
+                <marker date="1511600021000" expanded="true" signature="1721:1789" ph="UPDATE emplo... " />
+                <marker date="1511600021000" expanded="true" signature="2543:2569" ph="DELETE FROM " />
+                <marker date="1511600021000" expanded="true" signature="3058:3086" ph="SELECT * FRO... emplo" />
+                <marker date="1511600021000" expanded="true" signature="3972:3989" ph="SELECT * FRO... emplo" />
               </folding>
             </state>
           </provider>
@@ -170,6 +173,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -226,6 +232,7 @@
     <option name="width" value="1366" />
     <option name="height" value="701" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -457,12 +464,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511460857157</updated>
-      <workItem from="1511460862976" duration="43215000" />
+      <workItem from="1511460862976" duration="43596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43215000" />
+    <option name="totallyTimeSpent" value="43596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="701" extended-state="0" />
@@ -485,8 +492,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32838285" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16691843" sideWeight="0.49140048" order="0" side_tool="false" content_ui="combo" />
@@ -784,13 +791,13 @@
     <entry file="file://$PROJECT_DIR$/src/com/smartsoft/dao/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
-            <marker date="1511599657000" expanded="true" signature="825:895" ph="INSERT INTO emplo... " />
-            <marker date="1511599657000" expanded="true" signature="1713:1781" ph="UPDATE emplo... " />
-            <marker date="1511599657000" expanded="true" signature="2535:2561" ph="DELETE FROM " />
-            <marker date="1511599657000" expanded="true" signature="3050:3078" ph="SELECT * FRO... emplo" />
-            <marker date="1511599657000" expanded="true" signature="3964:3981" ph="SELECT * FRO... emplo" />
+            <marker date="1511600021000" expanded="true" signature="833:903" ph="INSERT INTO emplo... " />
+            <marker date="1511600021000" expanded="true" signature="1721:1789" ph="UPDATE emplo... " />
+            <marker date="1511600021000" expanded="true" signature="2543:2569" ph="DELETE FROM " />
+            <marker date="1511600021000" expanded="true" signature="3058:3086" ph="SELECT * FRO... emplo" />
+            <marker date="1511600021000" expanded="true" signature="3972:3989" ph="SELECT * FRO... emplo" />
           </folding>
         </state>
       </provider>

@@ -15,7 +15,7 @@ public class EmployeeDao {
             Class.forName("org.postgresql.Driver");
             String url = "jdbc:postgresql://localhost:5432/myemployees";
             String root = "postgres";
-            String password = "";
+            String password = "crescens";
             connection = DriverManager.getConnection(url, root, password);
 
         } catch (ClassNotFoundException | SQLException e) {
