@@ -7,24 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="019f3cec-f18c-4ecc-8dd4-94b79b0f1280" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/script.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/6c1f74a1-bc5a-4b63-94b6-a8800cd79ae2.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/3d478f4d-3856-4bb5-8836-59c81873b32a/_metadata_/metadata_i.len" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/WEB-INF/classes/com/smartsoft/servlet/SaveServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/WEB-INF/classes/com/smartsoft/servlet/SaveServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/com/smartsoft/servlet/SaveServlet.class" afterPath="$PROJECT_DIR$/out/production/CRUD/com/smartsoft/servlet/SaveServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CRUD.iml" afterPath="$PROJECT_DIR$/CRUD.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smartsoft/servlet/EditServlet.java" afterPath="$PROJECT_DIR$/src/com/smartsoft/servlet/EditServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smartsoft/servlet/SaveServlet.java" afterPath="$PROJECT_DIR$/src/com/smartsoft/servlet/SaveServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -476,12 +462,20 @@
       <updated>1511460857157</updated>
       <workItem from="1511460862976" duration="44185000" />
       <workItem from="1511683755250" duration="2883000" />
-      <workItem from="1511687399146" duration="2075000" />
+      <workItem from="1511687399146" duration="2133000" />
     </task>
+    <task id="LOCAL-00001" summary="Modification on loading pages, alert, so on">
+      <created>1511689531946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511689531947</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49143000" />
+    <option name="totallyTimeSpent" value="49201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="701" extended-state="6" />
@@ -524,6 +518,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modification on loading pages, alert, so on" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification on loading pages, alert, so on" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -789,6 +787,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -869,6 +868,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
