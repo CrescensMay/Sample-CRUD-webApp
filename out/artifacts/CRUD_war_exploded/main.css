@@ -95,7 +95,7 @@ footer{
     width: 100%;
     background: #000;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
 }
 *{
     text-decoration: none;
@@ -212,3 +212,9 @@ header li a:hover{
 #qryButton:hover {
     color: #000;
 }
+
+footer.link:hover{
+    background: white;
+    color: black;
+}
+

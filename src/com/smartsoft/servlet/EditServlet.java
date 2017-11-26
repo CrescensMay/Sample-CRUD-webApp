@@ -33,7 +33,7 @@ public class EditServlet extends HttpServlet {
         int id = Integer.parseInt(userid);
         Employee employee = EmployeeDao.getEmployeeById(id);
         printWriter.print( "<header>\n" +
-                "    <img src=\"crud.png\" alt=\"Ceci est une image\">\n" +
+                "    <img src=\"./images/crud.png\" alt=\"Ceci est une image\">\n" +
                 "    <ul>\n" +
                 "        <li><a href=\"LogoutServlet\">Logout</a></li>\n" +
                 "    </ul>\n" +
@@ -297,7 +297,8 @@ public class EditServlet extends HttpServlet {
                 "</div>");
         printWriter.print("<footer><p>Copyright &copy;\n" +
                 "    <script language=\"javascript\" type=\"text/javascript\"> document.write(new Date().getFullYear())</script>\n" +
-                "    SmartSoft / Terms of Services / Privacy Policy, by <strong> Crescens.K</strong></p>\n" +
+                "    SmartSoft / Terms of Services / Privacy Policy, by <strong> Crescens.K</strong> / <a class=\"link\" href=\"\" style=\"color: #ffffff;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseleave=\"this.style.textDecoration='none'\">About</a> /\n" +
+                "    <a class=\"link\" href=\"\" style=\" color: #ffffff;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseleave=\"this.style.textDecoration='none'\">Contact</a></p>\n" +
                 "</footer>");
         printWriter.print("<script>");
         printWriter.print(" $(\"#save\").click(function () {\n" +

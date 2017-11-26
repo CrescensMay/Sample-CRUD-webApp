@@ -27,7 +27,7 @@ public class SearchServlet extends HttpServlet {
         printWriter.print("<link href=\"https://fonts.googleapis.com/css?family=Anton\" rel=\"stylesheet\">\n" +
                 "    <link rel=\"stylesheet\" href=\"main.css\">");
         printWriter.print("<title>Query</title>");
-        printWriter.print("<head>");
+        printWriter.print("</head>");
         printWriter.print("<style>");
         printWriter.print("table {color: #333; /* Lighten up font color */\n" +
                 "    font-family: 'Aton';\n" +
@@ -75,7 +75,7 @@ public class SearchServlet extends HttpServlet {
         printWriter.print("</style>");
         printWriter.print("<body>\n" +
                 "<header>\n" +
-                "    <img src=\"crud.png\" alt=\"Ceci est une image\">\n" +
+                "    <img src=\"./images/crud.png\" alt=\"Ceci est une image\">\n" +
                 "    <ul>\n" +
                 "        <li><a href=\"LogoutServlet\">Logout</a></li>\n" +
                 "    </ul>\n" );
@@ -116,7 +116,8 @@ public class SearchServlet extends HttpServlet {
             printWriter.print("</div>");
             printWriter.print("<footer><p>Copyright &copy;\n" +
                     "    <script language=\"javascript\" type=\"text/javascript\"> document.write(new Date().getFullYear())</script>\n" +
-                    "    SmartSoft / Terms of Services / Privacy Policy, by <strong> Crescens.K</strong></p>\n" +
+                    "    SmartSoft / Terms of Services / Privacy Policy, by <strong> Crescens.K</strong> / <a class=\"link\" href=\"\" style=\"color: #ffffff;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseleave=\"this.style.textDecoration='none'\">About</a> /\n" +
+                    "    <a class=\"link\" href=\"\" style=\" color: #ffffff;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseleave=\"this.style.textDecoration='none'\">Contact</a></p>\n" +
                     "</footer>");
             printWriter.print("</body></html>");
         } catch (SQLException e) {
