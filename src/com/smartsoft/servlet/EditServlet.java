@@ -25,6 +25,7 @@ public class EditServlet extends HttpServlet {
         printWriter.print("<head>");
         printWriter.print("<link href=\"https://fonts.googleapis.com/css?family=Anton\" rel=\"stylesheet\">\n" +
                 "    <link rel=\"stylesheet\" href=\"main.css\">");
+        printWriter.print("<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>");
         printWriter.print("<title>Update Employee</title>");
         printWriter.print("</head>");
         printWriter.print("<body>");
@@ -298,6 +299,11 @@ public class EditServlet extends HttpServlet {
                 "    <script language=\"javascript\" type=\"text/javascript\"> document.write(new Date().getFullYear())</script>\n" +
                 "    SmartSoft / Terms of Services / Privacy Policy, by <strong> Crescens.K</strong></p>\n" +
                 "</footer>");
+        printWriter.print("<script>");
+        printWriter.print(" $(\"#save\").click(function () {\n" +
+                "        alert('Employee Succesfully Edited!');\n" +
+                "   });");
+        printWriter.print("</script>");
         printWriter.print("</body>");
         printWriter.print("</html>");
         printWriter.close();

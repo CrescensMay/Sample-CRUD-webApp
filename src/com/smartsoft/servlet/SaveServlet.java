@@ -36,7 +36,8 @@ public class SaveServlet extends HttpServlet {
             e.printStackTrace();
         }
         if (status > 0){
-            request.getRequestDispatcher("addSuccess.html").include(request,response);
+//            request.getRequestDispatcher("addSuccess.html").include(request,response);
+            response.sendRedirect("index.html");
         }else {
             printWriter.print("Sorry something went wrong! Unable to save record!");
         }
