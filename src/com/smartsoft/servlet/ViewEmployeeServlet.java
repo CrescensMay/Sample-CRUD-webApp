@@ -65,10 +65,9 @@ public class ViewEmployeeServlet extends HttpServlet {
                 "        <li><a href=\"LogoutServlet\">Logout</a></li>\n" +
                 "    </ul>\n" +
                 "</header>");
-        printWriter.print("<div class='index'>");
+        printWriter.print("<div class='index'style='height:100%;width:100%;min-height:1000px;'>");
         printWriter.println("<h1>Employees List</h1>");
         List<Employee> list= EmployeeDao.getAllEmployees();
-
         printWriter.print("<table width='100%' style='color:#000;font-size:20px;font-family:'Aton';'>");
         printWriter.print("<tr><th>Id</th><th>Name</th><th>Email</th><th>Country</th><th>Actions</th></tr>");//<th>Edit</th>
         for(Employee employee:list){
@@ -77,7 +76,7 @@ public class ViewEmployeeServlet extends HttpServlet {
                     "<button type='button' style='width:90px;background-color:rgb(168, 21, 16);'><a href='DeleteServlet?id="+employee.getId()+"'>Delete</a></button></td></tr>");
         }
         printWriter.print("</table>");
-        printWriter.println("<button type='button' id='viewemp' style='margin-top:20px;'><a href='index.html'>Add New Employee</a></button>");
+        printWriter.println("<button type='button' id='viewemp' style='margin-top:10px;'><a href='index.html'>Add New Employee</a></button>");
         printWriter.print("</div>");
         printWriter.print("<footer><p>Copyright &copy;\n" +
                 "    <script language=\"javascript\" type=\"text/javascript\"> document.write(new Date().getFullYear())</script>\n" +

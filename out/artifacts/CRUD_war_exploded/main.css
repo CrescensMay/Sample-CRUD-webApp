@@ -1,7 +1,10 @@
 body{
-    margin: auto;
+    margin: 0;
+    padding:0;
     /*width: 500px;*/
-    height: 500px;
+    /*position: relative;*/
+    /*height:auto;*/
+    /*min-height: 100%;*/
     background: rgba(67, 186, 52, 0.63);
 }
 header{

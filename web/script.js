@@ -9,4 +9,8 @@ $(document).ready(function(){
    //        }
    //    });
    });
+
+  $("#searchForm").keyup(function (e) {
+     return e.which !== 13;
+  });
 });

@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <title>Portail</title>
 </head>
 <body>
@@ -16,21 +17,23 @@
     </ul>
 </header>
 <div class="portail">
-    <p>You are successfully logged in!</p>
+    <!--<p>You are successfully logged in!</p>-->
+    <h1 style="font-family: 'Aton',sans-serif; color: #ffffff;text-align: center;margin-left: 10em;">Only for Quering Employee Record</h1>
 </div>
 <div class="searching">
-<form class="" action="SearchServlet">
-    <input type="search" id="searchBar" name="search" value="" placeholder="enter name or id">
-    <input type="submit" id="qryButton" name="query" value="Search">
+<form id="searchForm" name="searchForm" onsubmit="return false;" style="margin-bottom: 2em;">
+    <input type="search" id="searchBar" name="search" value="" placeholder="enter name or id" onkeyup="searchEmployee()">
+    <!--<input type="search" id="qryButton" name="query" value="Search" onclick="searchEmployee()">-->
 </form>
 </div>
-<div class="w3-content w3-section" style="max-width:700px">
-    <img class="mySlides" src="images/1.png" style="width: 100%">
-    <img class="mySlides" src="images/crud.png" style="width: 100%">
-    <img class="mySlides" src="images/2.png" style="width: 100%">
-    <img class="mySlides" src="images/3.png" style="width: 100%">
-    <img class="mySlides" src="images/4.png" style="width: 100%">
-</div>
+<span id="location" style="margin-top: 5em;"></span>
+<!--<div class="w3-content w3-section" style="max-width:700px">-->
+    <!--<img class="mySlides" src="images/1.png" style="width: 100%">-->
+    <!--<img class="mySlides" src="images/crud.png" style="width: 100%">-->
+    <!--<img class="mySlides" src="images/2.png" style="width: 100%">-->
+    <!--<img class="mySlides" src="images/3.png" style="width: 100%">-->
+    <!--<img class="mySlides" src="images/4.png" style="width: 100%">-->
+<!--</div>-->
 
 <script>
     var myIndex = 0;
@@ -53,5 +56,7 @@
     SmartSoft / Terms of Services / Privacy Policy, by <strong> Crescens.K</strong> / <a class="link" href="" style="color: #ffffff;" onmouseover="this.style.textDecoration='underline'" onmouseleave="this.style.textDecoration='none'">About</a> /
     <a class="link" href="" style=" color: #ffffff;" onmouseover="this.style.textDecoration='underline'" onmouseleave="this.style.textDecoration='none'">Contact</a></p>
 </footer>
+<script src="search.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
