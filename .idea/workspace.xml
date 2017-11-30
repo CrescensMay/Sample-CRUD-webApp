@@ -7,23 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="019f3cec-f18c-4ecc-8dd4-94b79b0f1280" name="Default" comment="Modify search method">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/search.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/WEB-INF/classes/com/smartsoft/servlet/SearchServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/com/smartsoft/servlet/SearchServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/smartsoft/servlet/SearchServlet.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/WEB-INF/classes/com/smartsoft/servlet/ViewEmployeeServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/WEB-INF/classes/com/smartsoft/servlet/ViewEmployeeServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/com/smartsoft/servlet/ViewEmployeeServlet.class" afterPath="$PROJECT_DIR$/out/production/CRUD/com/smartsoft/servlet/ViewEmployeeServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/main.css" afterPath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/portail.html" afterPath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/portail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smartsoft/servlet/ConfirmAdmin.java" afterPath="$PROJECT_DIR$/src/com/smartsoft/servlet/ConfirmAdmin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smartsoft/servlet/ViewEmployeeServlet.java" afterPath="$PROJECT_DIR$/src/com/smartsoft/servlet/ViewEmployeeServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/main.css" afterPath="$PROJECT_DIR$/web/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/portail.html" afterPath="$PROJECT_DIR$/web/portail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/script.js" afterPath="$PROJECT_DIR$/web/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -495,7 +484,7 @@
       <workItem from="1511683755250" duration="2883000" />
       <workItem from="1511687399146" duration="8266000" />
       <workItem from="1511714547393" duration="11157000" />
-      <workItem from="1512005230860" duration="10439000" />
+      <workItem from="1512005230860" duration="10471000" />
     </task>
     <task id="LOCAL-00001" summary="Modification on loading pages, alert, so on">
       <created>1511689531946</created>
@@ -518,19 +507,25 @@
       <option name="project" value="LOCAL" />
       <updated>1511695503224</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modify search method">
+      <created>1512043859508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512043859508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76930000" />
+    <option name="totallyTimeSpent" value="76962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="702" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -539,7 +534,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261944" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
