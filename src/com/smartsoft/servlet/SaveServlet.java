@@ -22,12 +22,14 @@ public class SaveServlet extends HttpServlet {
         String email = request.getParameter("email");
         String password = request.getParameter("password");
         String country = request.getParameter("country");
+        String date = request.getParameter("date");
 
         Employee employee = new Employee();
         employee.setName(username);
         employee.setEmail(email);
         employee.setPassword(password);
         employee.setCountry(country);
+        employee.setDate(date);
 
         int status = EmployeeDao.save(employee);
         try {

@@ -26,15 +26,16 @@ public class EmployeeDao {
 
     public static int save(Employee employee) {
         int status = 0;
-        Connection connection = null;
+        Connection connection;
         try {
-            String query = "INSERT INTO emp(username, email, password, country)VALUES (?, ?, ?, ?)";
+            String query = "INSERT INTO emp(username, email, password, country, date)VALUES (?, ?, ?, ?, ?)";
             connection = EmployeeDao.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             preparedStatement.setString(1, employee.getName());
             preparedStatement.setString(2, employee.getEmail());
             preparedStatement.setString(3, employee.getPassword());
             preparedStatement.setString(4, employee.getCountry());
+            preparedStatement.setString(5, employee.getDate());
 
             status = preparedStatement.executeUpdate();
             connection.close();
@@ -50,14 +51,15 @@ public class EmployeeDao {
 
         Connection connection = EmployeeDao.getConnection();
         try {
-            String sql = "UPDATE emp SET username=?, email=?, password=?, country=? WHERE id=?";
+            String sql = "UPDATE emp SET username=?, email=?, password=?, country=?, date=? WHERE id=?";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
             preparedStatement.setString(1, employee.getName());
             preparedStatement.setString(2, employee.getEmail());
             preparedStatement.setString(3, employee.getPassword());
             preparedStatement.setString(4, employee.getCountry());
-            preparedStatement.setInt(5, employee.getId());
+            preparedStatement.setString(5, employee.getDate());
+            preparedStatement.setInt(6, employee.getId());
 
             status = preparedStatement.executeUpdate();
             connection.close();
@@ -68,7 +70,7 @@ public class EmployeeDao {
         return status;
     }
 
-    public static int delete(int id){
+    public static void delete(int id){
         int status = 0;
         Connection connection = EmployeeDao.getConnection();
         String sql = "DELETE FROM emp WHERE id=?";
@@ -79,7 +81,6 @@ public class EmployeeDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return status;
     }
 
     public static Employee getEmployeeById(int id){
@@ -96,6 +97,7 @@ public class EmployeeDao {
                 employee.setEmail(resultSet.getString(3));
                 employee.setPassword(resultSet.getString(4));
                 employee.setCountry(resultSet.getString(5));
+                employee.setDate(resultSet.getString(6));
             }
             connection.close();
         } catch (SQLException e) {
@@ -119,6 +121,7 @@ public class EmployeeDao {
                 employee.setEmail(resultSet.getString(3));
                 employee.setPassword(resultSet.getString(4));
                 employee.setCountry(resultSet.getString(5));
+                employee.setDate(resultSet.getString(6));
                 employees.add(employee);
             }
             connection.close();

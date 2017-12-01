@@ -12,8 +12,8 @@
     </database>
     <schema id="4" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-11-25.07:27:21.095</IntrospectionTimestamp>
-      <IntrospectionStateNumber>606</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-12-01.01:50:40.975</IntrospectionTimestamp>
+      <IntrospectionStateNumber>713</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -39,7 +39,7 @@
     </sequence>
     <table id="11" parent="4" name="emp">
       <ObjectId>16405</ObjectId>
-      <StateNumber>605</StateNumber>
+      <StateNumber>713</StateNumber>
     </table>
     <column id="12" parent="11" name="id">
       <Position>1</Position>
@@ -73,12 +73,17 @@
       <NotNull>1</NotNull>
       <StateNumber>565</StateNumber>
     </column>
-    <index id="17" parent="11" name="emp_pkey">
+    <column id="17" parent="11" name="date">
+      <Position>7</Position>
+      <DataType>varchar(45)|0</DataType>
+      <StateNumber>713</StateNumber>
+    </column>
+    <index id="18" parent="11" name="emp_pkey">
       <ObjectId>16409</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="18" parent="11" name="emp_pkey">
+    <key id="19" parent="11" name="emp_pkey">
       <ObjectId>16410</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>emp_pkey</UnderlyingIndexName>

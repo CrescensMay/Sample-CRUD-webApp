@@ -23,6 +23,7 @@ public class EditServlet2 extends HttpServlet {
         String email = request.getParameter("email");
         String password = request.getParameter("password");
         String country = request.getParameter("country");
+        String date = request.getParameter("date");
 
         Employee employee = new Employee();
         employee.setId(id);
@@ -30,6 +31,7 @@ public class EditServlet2 extends HttpServlet {
         employee.setEmail(email);
         employee.setPassword(password);
         employee.setCountry(country);
+        employee.setDate(date);
 
         int status = EmployeeDao.update(employee);
         try {
@@ -40,7 +42,7 @@ public class EditServlet2 extends HttpServlet {
         if (status > 0){
             response.sendRedirect("ViewEmployeeServlet");
         }else {
-            response.sendRedirect("ViewEmployeeServlet");
+            response.sendRedirect("EditServlet");
         }
         printWriter.close();
     }

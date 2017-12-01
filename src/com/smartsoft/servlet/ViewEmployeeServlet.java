@@ -69,10 +69,10 @@ public class ViewEmployeeServlet extends HttpServlet {
         printWriter.println("<h1>Employees List</h1>");
         List<Employee> list= EmployeeDao.getAllEmployees();
         printWriter.print("<table width='100%' style='color:#000;font-size:20px;font-family:'Aton';'>");
-        printWriter.print("<tr><th>Id</th><th>Name</th><th>Email</th><th>Country</th><th>Actions</th></tr>");//<th>Edit</th>
+        printWriter.print("<tr><th>Id</th><th>Name</th><th>Email</th><th>Country</th><th>Date</th><th>Actions</th></tr>");//<th>Edit</th>
         for(Employee employee:list){
             printWriter.print("<tr><td>"+employee.getId()+ "</td><td>"+employee.getName()+"</td><td>"+employee.getEmail()+"</td><td>"+employee.getCountry()+
-                    "</td><td><button type='button' style='width:80px;background-color:rgba(195, 184, 33, 0.85)'><a href='EditServlet?id="+employee.getId()+"'>Edit</a></button>" +
+                    "</td><td>"+employee.getDate()+"</td>"+"<td><button type='button' style='width:80px;background-color:rgba(195, 184, 33, 0.85)'><a href='EditServlet?id="+employee.getId()+"'>Edit</a></button>" +
                     "<button type='button' style='width:90px;background-color:rgb(168, 21, 16);'><a href='DeleteServlet?id="+employee.getId()+"'>Delete</a></button></td></tr>");
         }
         printWriter.print("</table>");

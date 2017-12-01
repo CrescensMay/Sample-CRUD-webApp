@@ -6,6 +6,7 @@ public class Employee {
     private String email;
     private String password;
     private String country;
+    private String date;
 
     public int getId() {
         return id;
@@ -46,5 +47,14 @@ public class Employee {
     public void setCountry(String country) {
         this.country = country;
     }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
 
 }

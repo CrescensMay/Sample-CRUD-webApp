@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/com/smartsoft/dao/EmployeeDao.java" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/web/index.jsp" dialect="PostgreSQL" />
   </component>
 </project>

@@ -26,6 +26,8 @@ public class EditServlet extends HttpServlet {
         printWriter.print("<link href=\"https://fonts.googleapis.com/css?family=Anton\" rel=\"stylesheet\">\n" +
                 "    <link rel=\"stylesheet\" href=\"main.css\">");
         printWriter.print("<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>");
+        printWriter.print("  <link href=\"https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css\" rel=\"stylesheet\">\n" +
+                "    <script src=\"https://code.jquery.com/ui/1.10.4/jquery-ui.js\"></script>");
         printWriter.print("<title>Update Employee</title>");
         printWriter.print("</head>");
         printWriter.print("<body>");
@@ -292,6 +294,8 @@ public class EditServlet extends HttpServlet {
                 "            <option value=\"Zambia\">Zambia</option>\n" +
                 "            <option value=\"Zimbabwe\">Zimbabwe</option>\n" +
                 "        </select><br>\n" +
+                "  <label>Date</label><br>\n" +
+                "        <input type=\"text\" id=\"datepicker-1\" name=\"date\" value='"+ employee.getDate() +"'><br>"+
                 "        <input type=\"submit\" id=\"save\" value=\"Save Edit\">\n" +
                 "    </form><br>\n" +
                 "</div>");
@@ -305,6 +309,7 @@ public class EditServlet extends HttpServlet {
                 "        alert('Employee Succesfully Edited!');\n" +
                 "   });");
         printWriter.print("</script>");
+        printWriter.print("<script src=\"script.js\"></script>\n");
         printWriter.print("</body>");
         printWriter.print("</html>");
         printWriter.close();

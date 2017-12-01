@@ -5,7 +5,7 @@
   Time: 2:14 AM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>
 <%@page import="java.sql.*" %>
 <%@ page import="com.smartsoft.dao.EmployeeDao" %>
 <%@ page import="com.smartsoft.bean.Employee" %>
@@ -86,14 +86,15 @@
           out.print("<p>No record found!</p>");
         }else {
           out.print("<table>");
-          out.print("<tr><th>Id</th><th>Name</th><th>Email</th><th>Country</th></tr>");
-          List<Employee> list= EmployeeDao.getAllEmployees();
+          out.print("<tr><th>Id</th><th>Name</th><th>Email</th><th>Country</th><th>Date</th></tr>");
+//          List<Employee> list= EmployeeDao.getAllEmployees();
 //          for (Employee employee: list)
           while (resultSet.next()){
             out.print("<tr><td>" + resultSet.getInt(1)+"</td>"
                     + "<td>" + resultSet.getString(2)+"</td>"
                     + "<td>" + resultSet.getString(3)+"</td>"
-                    + "<td>" + resultSet.getString(5)+"</td>"+
+                    + "<td>" + resultSet.getString(5)+"</td>"
+                    + "<td>" + resultSet.getString(6)+"</td>"+
 //                    + "<td><button type='button' style='width:80px;background-color:rgba(195, 184, 33, 0.85)'><a href='EditServlet?id="+ employee.getId()+"'>Edit</a></button>" +
 //                        "<button type='button' style='width:90px;background-color:rgb(168, 21, 16);'><a href='DeleteServlet?id="+ employee.getId()+"'>Delete</a></button></td>" +
                     "</tr>");
